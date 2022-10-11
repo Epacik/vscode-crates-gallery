@@ -1,12 +1,17 @@
-# NuGet Gallery Extension
+# Crate Gallery Extension
 
-NuGet Gallery Extension makes installing and uninstalling NuGet packages easier
+Crate Gallery Extension makes installing and uninstalling Cargo crates easier
+
+*This project is based on [GitHub - pcislo/vscode-nuget-gallery](https://github.com/pcislo/vscode-nuget-gallery), [License (ISC)](https://opensource.org/licenses/ISC) (as defined in package.json)*
+
 
 
 ## Features
+
 ![feature X](docs/images/presentation_1.gif)
 
 ## Configuration
+
 * Credential Provider Folder - in order to use private feeds credential provider is required [CredentialProvider](https://github.com/microsoft/artifacts-credprovider)
 * Sources - new sources can be added in appropriate json format: {"name": "...", "url": "..."}
 
@@ -17,7 +22,6 @@ NuGet Gallery Extension makes installing and uninstalling NuGet packages easier
 [#48](https://github.com/pcislo/vscode-nuget-gallery/pull/48) by [@claudineyqr](https://github.com/claudineyqr)
 
 Obtaining additional information about the package
-
 
 ### v0.0.23
 
@@ -57,12 +61,9 @@ Add support for credentials provider on linux/mac
 * Increased spacing between project items for clarity.
 * Added styles for disabling buttons and anchor tags.
 
-
-
 ### v0.0.8
 
 Fix projects loading when packages have no version specified [#14](https://github.com/pcislo/vscode-nuget-gallery/pull/17)
-
 
 ### v0.0.7
 
@@ -83,6 +84,5 @@ Add scroll
 ### v0.0.1
 
 Initial release of NuGet Gallery Extension
-
 
 -----------------------------------------------------------------------------------------------------------
